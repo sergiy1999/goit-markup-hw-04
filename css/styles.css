@@ -154,7 +154,7 @@ gap: 40px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ .jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg); 
 }
 
 .hero-order-btn {
@@ -173,13 +173,14 @@ gap: 40px;
    text-align: center;
    border: none;
    min-width: 169px;
-   height: 56px;   
+   height: 56px; 
 }
 
 .hero-order-btn:hover,
 .hero-order-btn:focus {
     background-color: #404bbf;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);   
+
 }
 
 .visually-hidden {
@@ -305,7 +306,11 @@ gap: 24px;
 }
 .portfolio-conteiner{
 position: relative;
-overflow: hidden;  
+overflow: hidden; 
+}
+
+.portfolio-conteiner:hover{
+    transform: translateY(0%); 
 }
 
 .portfolio-text-next{
