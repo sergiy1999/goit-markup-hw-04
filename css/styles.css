@@ -471,8 +471,9 @@ overflow: hidden;
     letter-spacing: 0.02em;
     color: #fff;
     transform: translateY(0%);
-    margin-left: 0;
     margin-bottom: 16px;
+    width: 100%;
+    text-align: left;
 }
 
 .general{
