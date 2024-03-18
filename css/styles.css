@@ -435,8 +435,6 @@ overflow: hidden;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 
 .footer-link{
